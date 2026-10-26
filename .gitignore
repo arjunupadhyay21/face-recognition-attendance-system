@@ -1,0 +1,12 @@
+*.db
+data/
+*.whl
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.DS_Store
+.vscode/
+.idea/

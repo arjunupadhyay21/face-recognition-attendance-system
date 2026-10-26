@@ -1,0 +1,14 @@
+tensorflow-macos==2.11.0       # TensorFlow 2.11 for macOS, compatible with Python 3.10
+keras-facenet==0.3.2           # Keras-FaceNet depends on TensorFlow, and this version works with TF 2.x
+scipy==1.10.1                  # Compatible with Python 3.10
+numpy==1.23.5                  # Compatible with Python 3.10
+opencv-python==4.10.0.84       # Compatible with Python 3.10
+gradio==4.44.1                 # Compatible with Python 3.10
+dlib==19.24.9                  # Compiles from source on macOS - requires Xcode Command Line Tools
+                                # and cmake installed first (see setup steps). Do NOT use the
+                                # win_amd64 .whl file - that's Windows-only and won't work here.
+                                # Must be 19.24.6+ for compatibility with modern cmake (older
+                                # versions fail to configure with cmake 3.27+).
+
+huggingface_hub==0.25.2
+pydantic==2.10.6
